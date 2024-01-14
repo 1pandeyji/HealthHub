@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HealthHub</title>
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+
+    <!-- nav bar -->
+
+    <!-- <nav class="navbar">
+      <div class="navbar-title">HealthHub</div>
+      <button class="toggle-navbar" onclick="toggleNavbar()">☰</button>
+    </nav> -->
+
+    
+<nav class="navbar">
+    <div class="navbar-content">
+        <div class="navbar-toggle" onclick="toggleNavbar()">☰</div>
+        <div class="navbar-title">HealthHub</div>
+        <div class="navbar-search">
+            <!-- <div class="search-icon">&#128269;</div> -->
+            <input type="text" placeholder="Search" id="searchInput" oninput="performSearch()">
+        </div>
+    </div>
+</nav>
+
+
+
+<!-- health container -->
+
+    <div class="health-container">
+      <div class="health-label">Blood Pressure Level</div>
+      <div class="health-value" id="bpValue">120/80 mmHg</div>
+
+      <div class="health-label">Sugar Level</div>
+      <div class="health-value" id="sugarValue">100 mg/dL</div>
+
+      <div class="input-field">
+        <label for="bpInput">Enter Blood Pressure:</label>
+        <input type="text" id="bpInput" placeholder="e.g., 120/80 mmHg" />
+      </div>
+
+      <div class="input-field">
+        <label for="sugarInput">Enter Sugar Level:</label>
+        <input type="text" id="sugarInput" placeholder="e.g., 100 mg/dL" />
+      </div>
+
+      <button onclick="updateHealthValues()">Check Your Health</button>
+    </div>
+
+    <script src="navbar.js"></script>
+
+    <script src="home.js"></script>
+  </body>
+</html>
