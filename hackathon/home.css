@@ -1,0 +1,71 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, #3498db, #2980b9);
+    color: #fff;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.health-container {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(107, 99, 99, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.health-container:hover {
+    background-color: #d10808;
+}
+
+.health-label {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.health-value {
+    font-size: 36px;
+    color: #3498db;
+    font-weight: bold;
+}
+
+.input-field {
+    margin-top: 15px;
+    
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #3498db;
+    border-radius: 4px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+#sugarInput {
+    margin-left: 20px;
+}
+
+input:focus {
+    border-color: #2980b9;
+}
+
+button {
+    margin-top: 25px;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
