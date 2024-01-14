@@ -56,6 +56,8 @@ Installation
 The user interface is designed to be intuitive and visually appealing. 
 It includes input fields for blood pressure and sugar levels, a real-time display of current values, 
 and a button to update the displayed information. The UI is responsive and provides a positive user experience.
+![image](https://github.com/1pandeyji/HealthHub/assets/89840329/3b156e34-888e-46ff-bb7d-64b08ceeab7d)
+
 
 
 6. Technologies Used
